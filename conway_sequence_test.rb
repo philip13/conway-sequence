@@ -18,11 +18,6 @@ class ConwaySequenceTest < Minitest::Test
   end
 
   def test_r_5_and_l_10
-    # '5'
-    # "1 5"
-    # '1 1 1 5'
-    # '3 1 1 5'
     assert_equal ConwaySequence.new(5).display_line(5), '1 3 2 1 1 5'
-    # 1 1 1 3 1 2 2 1 1 3 3 1 1 2 1 3 2 1 1 3 2 1 2 2 2 1
   end
 end
